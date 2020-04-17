@@ -88,7 +88,7 @@ find_resources_from_plan = func(type) {
 						##### Lists #####
 
 						# Allowed EC2 Instance Types
-						# We don't include t2.nano or t2.micro to illustrate overriding failed policy
+						# We dont include t2.nano or t2.micro to illustrate overriding failed policy
 						allowed_types = [
 							"t2.small",
 							"t2.medium",
