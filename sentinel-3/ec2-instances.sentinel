@@ -56,7 +56,7 @@ find_resources_from_plan = func(type) {
 							# Loop through the resource instances
 							for resource_instances as address, r {
 
-								# Skip resource instances that are being destroyed
+								# Skip, resource instances that are being destroyed
 								# to avoid unnecessary policy violations.
 								# Used to be: if length(r.diff) == 0
 								if r.destroy and not r.requires_new {
